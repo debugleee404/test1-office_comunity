@@ -709,7 +709,7 @@
                 return;
             }
 
-            document.getElementById('result-image').src = `./${mbti.toLowerCase()}.png`;
+            document.getElementById('result-image').src = `images/${mbti.toLowerCase()}.png`;
             document.getElementById('result-title').textContent = resultData.title;
             document.getElementById('result-desc').textContent = resultData.description;
             document.getElementById('match-good').textContent = resultData.goodMatch;
